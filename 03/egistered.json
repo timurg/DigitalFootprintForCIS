@@ -8,19 +8,19 @@
 	  }
 	},
 	"verb": {
-		"id": "http://adlnet.gov/expapi/verbs/answered",
+		"id": "http://adlnet.gov/expapi/verbs/registered",
 		"display": {
-			"en-EN": "answered"
+			"en-EN": "registered",
+			"ru-RU": "зарегистрировался"
 		}
 	},
 	"object": {
 		"objectType": "Activity",
-		"id": " ссылка на страницу с формой регистрацией",
+		"id": "todo: ссылка на курс",
 		"definition": {
-			"type": "http://id.tincanapi.com/activitytype/survey",
+			"type": "http://adlnet.gov/expapi/activities/course",
 			"name": {
-				"en-US":"A survey where the respondent answers questions.",
-				"ru-RU": "Заполнил форму с анкетированием"
+				"ru-RU": "курс DOTO: "
 			}
 		}
 	},
