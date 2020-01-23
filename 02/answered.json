@@ -20,7 +20,7 @@
 			"type": "http://id.tincanapi.com/activitytype/survey",
 			"name": {
 				"en-US":"A survey where the respondent answers questions.",
-				"ru-RU": "Заполнил форму регистрации"
+				"ru-RU": "Заполнил форму с псих"
 			}
 		}
 	},
