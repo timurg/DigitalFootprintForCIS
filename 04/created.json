@@ -7,19 +7,19 @@
 	  }
 	},
 	"verb": {
-		"id": "http://adlnet.gov/expapi/verbs/registered",
+		"id": "http://activitystrea.ms/schema/1.0/create",
 		"display": {
-			"en-EN": "registered",
-			"ru-RU": "зарегистрировался"
+			"en-EN": "created",
+			"ru-RU": "создал"
 		}
 	},
 	"object": {
 		"objectType": "Activity",
-		"id": "todo: ссылка на курс",
+		"id": "todo: ссылка на группу",
 		"definition": {
-			"type": "http://adlnet.gov/expapi/activities/course",
+			"type": "http://activitystrea.ms/schema/1.0/group",
 			"name": {
-				"ru-RU": "DOTO: на курс Название курса"
+				"ru-RU": "DOTO: в группу Название группы"
 			}
 		}
 	},

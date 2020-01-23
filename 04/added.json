@@ -7,25 +7,28 @@
 	  }
 	},
 	"verb": {
-		"id": "http://adlnet.gov/expapi/verbs/registered",
+		"id": "http://activitystrea.ms/schema/1.0/add",
 		"display": {
-			"en-EN": "registered",
-			"ru-RU": "зарегистрировался"
+			"en-EN": "added",
+			"ru-RU": "добавил"
 		}
 	},
 	"object": {
 		"objectType": "Activity",
-		"id": "todo: ссылка на курс",
+		"id": "todo: ссылка на группу",
 		"definition": {
-			"type": "http://adlnet.gov/expapi/activities/course",
+			"type": "http://activitystrea.ms/schema/1.0/group",
 			"name": {
-				"ru-RU": "DOTO: на курс Название курса"
+				"ru-RU": "DOTO: в группу Название группы"
 			}
 		}
 	},
 	"context": {
 		"platform": "Электронное образование Республики Башкортостан",
-		"language": "ru"
+		"language": "ru",
+		"extentions": {
+
+		}
 	},
 	"timestamp": "2018-05-04T16:54:43.0000000",
 	"id": "2314ed76-a4bc-49c1-875e-51b560e04639",
