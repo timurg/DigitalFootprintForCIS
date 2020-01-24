@@ -7,10 +7,10 @@
 	  }
 	},
 	"verb": {
-		"id": "http://activitystrea.ms/schema/1.0/add",
+		"id": "http://activitystrea.ms/schema/1.0/join",
 		"display": {
-			"en-EN": "added",
-			"ru-RU": "добавил"
+			"en-EN": "joined",
+			"ru-RU": "присоеденился"
 		}
 	},
 	"object": {
@@ -25,7 +25,11 @@
 	},
 	"context": {
 		"platform": "Электронное образование Республики Башкортостан",
-		"language": "ru"
+		"language": "ru",
+		"statement": {
+			"objectType":"StatementRef",
+			"id":"TODO: идентификатор added события"
+		}
 	},
 	"timestamp": "2018-05-04T16:54:43.0000000",
 	"id": "2314ed76-a4bc-49c1-875e-51b560e04639",

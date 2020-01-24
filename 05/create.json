@@ -7,10 +7,10 @@
 	  }
 	},
 	"verb": {
-		"id": "http://activitystrea.ms/schema/1.0/add",
+		"id": "http://activitystrea.ms/schema/1.0/create",
 		"display": {
-			"en-EN": "added",
-			"ru-RU": "добавил"
+			"en-EN": "created",
+			"ru-RU": "создал группу"
 		}
 	},
 	"object": {

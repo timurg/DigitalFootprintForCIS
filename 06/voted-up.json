@@ -1,0 +1,42 @@
+{
+	"actor": {
+		"objectType": "Agent",
+		"account": {
+			"homePage": "https://esia.gosuslugi.ru",
+			"name": "1625378"
+		}
+	},
+	"verb": {
+		"id": "http://id.tincanapi.com/verb/voted-down",
+		"display": {
+			"en-EN": "down voted",
+			"ru-RU": "проголосовал против"
+		}
+	},
+	"object": {
+		"objectType": "Activity",
+		"id": "todo: ссылка на дизлайкнутый объект",
+		"definition": {
+			"type": "http://activitystrea.ms/schema/1.0/comment",
+			"name": {
+				"ru-RU": "DOTO: текстовое представление дизлайкнутого сообщения"
+			},
+			"extensions": {
+				"http://id.tincanapi.com/extension/target": {
+					"objectType": "Agent",
+					"account": {
+						"homePage": "https://esia.gosuslugi.ru",
+						"name": "автор сообщение"
+					}
+				}
+			}
+		}
+	},
+	"context": {
+		"platform": "Электронное образование Республики Башкортостан",
+		"language": "ru"
+	},
+	"timestamp": "2018-05-04T16:54:43.0000000",
+	"id": "2314ed76-a4bc-49c1-875e-51b560e04639",
+	"version": "1.0.3"
+}

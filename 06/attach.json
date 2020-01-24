@@ -7,19 +7,19 @@
 	  }
 	},
 	"verb": {
-		"id": "http://activitystrea.ms/schema/1.0/add",
+		"id": "http://activitystrea.ms/schema/1.0/attach",
 		"display": {
-			"en-EN": "added",
-			"ru-RU": "добавил"
+			"en-EN": "attached",
+			"ru-RU": "добавил файл"
 		}
 	},
 	"object": {
 		"objectType": "Activity",
-		"id": "todo: ссылка на группу",
+		"id": "todo: ссылка на файл",
 		"definition": {
-			"type": "http://activitystrea.ms/schema/1.0/group",
+			"type": "http://activitystrea.ms/schema/1.0/file",
 			"name": {
-				"ru-RU": "DOTO: в группу Название группы"
+				"ru-RU": "описание содержимого"
 			}
 		}
 	},

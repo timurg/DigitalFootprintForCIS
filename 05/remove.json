@@ -7,10 +7,10 @@
 	  }
 	},
 	"verb": {
-		"id": "http://activitystrea.ms/schema/1.0/add",
+		"id": "http://activitystrea.ms/schema/1.0/remove",
 		"display": {
-			"en-EN": "added",
-			"ru-RU": "добавил"
+			"en-EN": "removed",
+			"ru-RU": "исключил из группы участника"
 		}
 	},
 	"object": {
