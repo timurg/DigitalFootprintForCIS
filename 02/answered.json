@@ -1,34 +1,48 @@
-
 {
-	"actor": {
-		"objectType": "Agent",
-		"account": {
-		  "homePage": "https://esia.gosuslugi.ru",
-		  "name": "1625378"
-	  }
-	},
-	"verb": {
-		"id": "http://adlnet.gov/expapi/verbs/answered",
-		"display": {
-			"en-EN": "answered"
-		}
-	},
-	"object": {
-		"objectType": "Activity",
-		"id": " ссылка на страницу с формой регистрацией",
-		"definition": {
-			"type": "http://id.tincanapi.com/activitytype/survey",
-			"name": {
-				"en-US":"A survey where the respondent answers questions.",
-				"ru-RU": "Заполнил форму с анкетированием"
-			}
-		}
-	},
-	"context": {
-		"platform": "Электронное образование Республики Башкортостан",
-		"language": "ru"
-	},
-	"timestamp": "2018-05-04T16:54:43.0000000",
-	"id": "2314ed76-a4bc-49c1-875e-51b560e04639",
-	"version": "1.0.3"
+    "actor": {
+        "objectType": "Agent",
+        "account": {
+            "homePage": "https://esia.gosuslugi.ru",
+            "name": "1625378"
+        }
+    },
+    "verb": {
+        "id": "http://adlnet.gov/expapi/verbs/answered",
+        "display": {
+            "en-EN": "answered"
+        }
+    },
+    "object": {
+        "objectType": "Activity",
+        "id": " ссылка на страницу с формой регистрацией",
+        "definition": {
+            "type": "http://id.tincanapi.com/activitytype/survey",
+            "name": {
+                "en-US": "A survey where the respondent answers questions.",
+                "ru-RU": "Заполнил форму с анкетированием"
+            }
+        }
+    },
+    "context": {
+        "platform": "Электронное образование Республики Башкортостан",
+        "language": "ru",
+        "contextActivities": {
+            "parent": [{
+                    "definition": {
+                        "name": {
+                            "ru-RU": "Повышение цифровой грамотности"
+                        },
+                        "description": {
+                            "ru-RU": "Курс по повышению цифровой грамотности РБ"
+                        }
+                    },
+                    "id": "<URL курса>",
+                    "objectType": "Activity"
+                }
+            ]
+        }
+    },
+    "timestamp": "2018-05-04T16:54:43.0000000",
+    "id": "2314ed76-a4bc-49c1-875e-51b560e04639",
+    "version": "1.0.3"
 }
