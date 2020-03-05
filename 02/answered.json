@@ -40,6 +40,9 @@
                     "objectType": "Activity"
                 }
             ]
+        },
+        "extensions": {
+            "http://xapi.bashkortostan.ru/context/extension/sessionid": "идентификатор сессии"
         }
     },
     "timestamp": "2018-05-04T16:54:43.0000000",
