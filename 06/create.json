@@ -14,14 +14,17 @@
         }
     },
     "object": {
-        "objectType": "Activity",
-        "id": "todo: ссылка на комментарий",
         "definition": {
+            "extensions": {
+                "domain": "aso-edu.demiusgroup.ru"
+            },
             "type": "http://activitystrea.ms/schema/1.0/comment",
             "name": {
-                "ru-RU": "DOTO: текст комментария"
+                "ru-RU": "Проверка комментария."
             }
-        }
+        },
+        "id": "http://aso-edu.demiusgroup.ru/company/personal/user/1/blog/1/?commentId=27#com27",
+        "objectType": "Activity"
     },
     "context": {
         "platform": "Электронное образование Республики Башкортостан",
